@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const routes = require("./routes") // new
 
 var { credentials, clusterURL } = require('./credentials');
-var dbURI = `mongodb+srv://${credentials.username}:${credentials.password}@${clusterURL}`;
+var dbURI = `${clusterURL}`;
 
 
 var port = 3000;
