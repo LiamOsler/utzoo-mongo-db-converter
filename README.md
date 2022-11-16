@@ -5,7 +5,7 @@ Some scripts for converting the UTZOO Usenet archive to a Mongo Database
 You must have the contents of the UTZOO usenes archive extracted in a directory names `UTZOO`
 
 Open the `server` folder and create a file called `credentials.js`. In it, include:
-js```
+```js
 const clusterURL = `your_cluster_url`;
 const credentials = {
     username : "your_username",
